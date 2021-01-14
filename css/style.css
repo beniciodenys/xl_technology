@@ -39,6 +39,12 @@ html {
 .navbar {
   background-color: rgba(21, 31, 33, 0.5);
   border-bottom: 1px solid #dedede;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar--opened{
+  background-color: rgba(21, 31, 33, 0.9);
+  transition: all .6s ease-in-out;
 }
 
 .navbar .navbar-nav .nav-link {
